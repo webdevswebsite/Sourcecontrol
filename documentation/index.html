@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>MyIndustry - Industrial HTML Template | Documentaion</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/jquery.highlight.css" />
+
+<link href="css/style.css" rel="stylesheet">
+<link href="css/scrollbar.css" rel="stylesheet">
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+<!--Page Wrapper-->
+<div class="page-wrapper">
+    
+    <!--Sidebar-->
+    <aside id="sidebar">
+    	
+        <!--Toggle Button-->
+        <div class="button-container clearfix"><div class="menu-toggle flaticon-menu10"></div></div>
+        
+        <!--Menu Box-->
+        <div class="menu-box">
+        	<!--Logo-->
+			<br>
+        	<div class="logo text-right"><a href="#"><img src="images/logo-4.png" alt=""></a></div>
+            
+            <!--Sticky Menu-->
+            <nav class="sticky-menu">
+            	<ul>
+                	<li class="current"><a href="#introduction">Introduction <span class="fa fa-arrow-right"></span></a></li>
+                    <li><a href="#html-structure">HTML Structure <span class="fa fa-arrow-right"></span></a></li>
+                    <li><a href="#css-structure">CSS Files and Structure <span class="fa fa-arrow-right"></span></a></li>
+                    <li><a href="#javascript">Javascript <span class="fa fa-arrow-right"></span></a></li>
+					<li><a href="#map-settings">Google Map Settings <span class="fa fa-arrow-right"></span></a></li>
+                    <li><a href="#tutorial">Tutorial<span class="fa fa-arrow-right"></span></a></li>
+                    <li><a href="#contact">Contact Form<span class="fa fa-arrow-right"></span></a></li>
+                    <li><a href="#sources-credits">Sources and Credits <span class="fa fa-arrow-right"></span></a></li>
+                    <li><a href="#support">Support <span class="fa fa-arrow-right"></span></a></li>
+                </ul>
+            
+            </nav>
+            
+        </div>
+        
+
+    </aside>
+    
+    <div id="content-section">
+    	
+        <!--Introduction Section-->
+        <section class="section introduction" id="introduction">
+        	<!-- <div class="sec-title">
+            	<span class="icon fa fa-windows"></span>
+                <h2>Intoduction</h2>
+            </div> -->
+            
+            <br>
+            <div class="sec-content">
+            	<h2>MyIndustry</h2>
+                <h3>Industrial HTML Template Documentaion</h3>
+                
+                <div class="separator"></div>
+                
+                <strong>Created :</strong> 20/10/2021<br>
+                <!-- <strong>By :</strong> layerdrops<br> -->
+         
+                
+                <br>
+                <p>Thank you for purchasing <strong>MyIndustry</strong> - Industrial HTML Template. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have any queries, please feel free to contact us at Support Center.<br>Thankyou so much!</p>
+                <br />
+
+                <h3 class="content-title">Template Features</h3>
+                <br />
+                <ul class="checkbox">
+                    <li>Clean & Simple Design</li>
+                    <li> Bootstrap 3 Framework </li>
+                    <li>HTML5 & CSS3 </li>
+                    <li>Fully Responsive Design </li>
+                    <li>All files are well commented </li>
+                    <li>All Code are W3 validate</li>
+                    <li>Crossbrowser Compatible with IE10+, Firefox, Safari, Opera, Chrome </li>
+                    <li>Documentation</li>
+                </ul>
+            </div>
+        </section>
+        
+        <!--HTML Structure-->
+        <section class="section html-structure" id="html-structure">
+        	<div class="sec-title">
+            	<span class="icon fa fa-th-large"></span>
+                <h2>HTML Structure</h2>
+            </div>
+            
+            <br>
+            <div class="sec-content">
+            	
+                <h3>The html template uses  <strong>Bootstrap v3</strong> with valid HTML5 tags. This theme is a responisve layout with 4 column Support column. All of the information in content area is nested within a class and comes with predefined classes.</h3>
+				
+                <h3 class="content-title">Here is Basic Grid HTML</h3>
+                <p>For a simple two column layout, create a .container and add the appropriate number of .col-md* columns. </p>
+                <p>Given this example, we have .col-md-6 and .col-md-6, making for 12 total columns and a complete row.</p>
+                <br />
+<pre class="code" data-language="html">
+<div class="container">
+    <div class="col-md-6">...</div>
+    <div class="col-md-6">...</div>
+</div>
+</pre>
+                <br />
+                <h3 class="content-title">Here is Nesting Columns example</h3><!-- /.content-title -->
+                <p>To nest your content with the default grid, add a new .container and set of .col-md* columns within an existing .col-md* column. Nested rows should include a set of columns that add up to the number of columns of its parent.</p>
+                <br />
+                <pre class="code" data-language="html">
+<div class="container">
+    <div class="col-md-9">
+        Level 1 column
+        <div class="row">
+            <div class="col-md-8">Level 2</div>
+            <div class="col-md-4">Level 2</div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        Level 2 column
+    </div>
+</div>
+</pre><!-- /.code -->
+  <h3 class="content-title">Here is Basic col Layout</h3>
+  <img src="images/col.jpg">
+            </div>
+            
+        </section>
+        
+        <!--CSS Structure-->
+        <section class="section css-structure" id="css-structure">
+        	<div class="sec-title">
+            	<span class="icon fa fa-at"></span>
+                <h2>CSS (stylesheet) Files and Structure</h2>
+            </div>
+            
+            <br>
+            <div class="sec-content">
+            	
+                <h3>Three main CSS files are used in this Template. The first one is <strong>bootstrap.css</strong>, second one is <strong>style.css</strong> which for this template and third one is <strong>responsive.css</strong> to control responsive layouts. </h3>
+				<p>If you want to add or edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited. Also you can add your own css file as per your requirements.</p>
+                <br />
+                <p>These are the css files that are added into templates in top in head tag.</p>
+                <br />
+                <pre class="code" data-language="css">
+
+<!--==== Bootstrap css file ====-->
+<link rel="stylesheet" href="css/bootstrap.css">
+
+<!--==== Style css file ====-->
+<link rel="stylesheet" href="css/style.css">
+
+<!--==== Font-Awesome css file ====-->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!--==== flaticon css file ====-->
+<link rel="stylesheet" href="css/flaticon.css">
+
+<!--==== Responsive css file ====-->
+<link rel="stylesheet" href="css/responsive.css">
+
+<!--==== Slider css file ====-->
+<link rel="stylesheet" href="css/revolution-slider.css">
+                </pre><!-- /.code -->
+                
+                <br />
+                <h3 class="content-title">Website Fonts</h3>
+
+                <p>By default, the template loads this font from Google Web Font Services, you can change the font witas per your requirements.</p>
+                <br />
+                <pre class="code" data-language="css">
+
+<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Montserrat:400,700|Open+Sans:300,300i,400,400i,600,600i,700,700i|Oswald:300,400,700" rel="stylesheet">
+                </pre><!-- /.code -->
+
+<p><b>You can also change the font setting from style.css</b></p>
+<pre class="code" data-language="css">
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Montserrat:400,700|Open+Sans:300,300i,400,400i,600,600i,700,700i|Oswald:300,400,700');
+
+
+@import url('font-awesome.css');
+@import url('flaticon.css');
+@import url('animate.css');
+@import url('owl.css');
+@import url('jquery.fancybox.css');
+@import url('jquery.mCustomScrollbar.min.css');
+@import url('jquery.bootstrap-touchspin.css');
+
+
+</pre>
+
+
+            </div>
+            
+        </section>
+        
+        <!--Javascript-->
+        <section class="section javascript" id="javascript">
+        	<div class="sec-title">
+            	<span class="icon fa fa-code"></span>
+                <h2>javascript  and Jquery</h2>
+            </div>
+            
+            <br>
+            <div class="sec-content">
+            	
+                <h3>This template imports some  of Javascript files.</h3>
+                <ul>
+                    <li>bootstrap.min</li>
+                    <li>jQuery</li>
+                    <li>Custom scripts <strong>(script.js)</strong></li>
+                    <li>Wow</li>
+                    <li>owl</li>
+                    <li>Some plugins</li>
+                    <br>
+                    <li><strong>jQuery</strong> is a Javascript library that greatly reduces the amount of code that you must write. and it load fast.</li>
+                    <li>Most of the animation in this site is carried out from the jquery scripts. Wow.js Owl.js revolution.min.js nouislider.js etc</li>
+                </ul>
+                <br>
+				<p>You can use any plugin as per your requirements, This template also support third party plugin, just you need to integrate correctly.</p>
+                <br />
+                <br />
+                <p>These are the JS files that are loaded into templates in end of the Body Section.</p>
+<br />
+                <pre class="code" data-language="html">
+<!-- ==== JQuery js file==== -->
+ <script src="js/jquery.js"></script> 
+
+<!-- ==== Bootstrap js file==== -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- ==== Slider js file==== -->
+<script src="js/revolution.min.js"></script>
+
+<!-- ==== css effect js file==== -->
+<script src="js/jquery.fancybox.pack.js"></script>
+
+<!-- ==== scrollbar js==== -->
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+<!-- ==== media js file==== -->
+<script src="js/jquery.fancybox-media.js"></script>
+
+<!-- ====   js file==== -->
+<script src="js/isotope.js"></script>
+
+<!-- ==== Owl Carousel  js file=== -->
+<script src="js/owl.js"></script>
+
+<!--==== google map api key ====-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2D8wrWMY3XZnuHO6C31uq90JiuaFzGws"></script>
+
+<!-- ==== Wow js file==== -->
+<script src="js/wow.js"></script>
+
+<!-- ==== Custom js file==== -->
+<script src="js/script.js"></script>
+                </pre><!-- /.code -->
+
+
+  </div>
+            
+        </section>
+        
+        <!--Map Settings-->
+        <section class="section map-settings" id="map-settings">
+            <div class="sec-title">
+                <span class="icon fa fa-map-marker"></span>
+                <h2>Google Map Settings</h2>
+            </div>
+            
+            <br>
+            <div class="sec-content">
+                
+                <!-- <h3>For editing default contact map you have to edit our script.js files. and find the comment '11: Google map' See the screenshot below for more clarification </h3> -->
+                
+                <!-- <figure class="image-box"><img src="images/map-settings.png" alt=""></figure> -->
+
+                <br>
+              <p> You can use google map iframe to display your map location.Or visit google map documentation</p> 
+
+<p> https://developers.google.com/maps/documentation</p> 
+                <p><strong>Those are you giver to alocate your location which is listed below: </strong></p>
+                <p><i class="fa fa-check-square-o"></i> &nbsp; map-lat</p>
+                <p><i class="fa fa-check-square-o"></i> &nbsp; map-lng</p>
+                <p><i class="fa fa-check-square-o"></i> &nbsp; map-zoom</p>
+                
+            </div>
+            
+        </section>
+
+        
+        <!--Sources and Credits-->
+        <section class="section tutorial" id="tutorial">
+            <div class="sec-title">
+                <span class="icon fa fa-credit-card"></span>
+                <h2>How To edit (Tutorial)</h2>
+            </div>
+            
+            <br>
+            <div class="sec-content">
+                <h3 class="content-title">LOGO</h3><!-- /.content-title -->
+                <br />
+                <p>Lets start updating the template. Open index.html file and follow the below steps to understand how to edit template.</p>
+                <p>Most of the updates are same for all pages. So will explain once here.</p>
+                <br />
+                <p><b>You can change the logo from header class - .main-header tag</b></p>
+                <img src="images/logo-img.jpg">
+                <pre class="code" data-language="html">
+<!-- Logo -->
+<div class="logo-box">
+                        <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+</div>
+<!-- End of Logo -->
+                </pre><!-- /.code -->
+
+
+                <p>Replace or rename "images/logo.png" with your logo image url source or website name .</p>
+                <br />
+
+                <h3 class="content-title">Menubar (navmenu)</h3><!-- /.content-title -->
+                <br />
+                <p>This is the basic structure.</p>
+<img src="images/menu.jpg">
+                <pre class="code" data-language="html">
+<!-- menu -->
+<div class="nav-outer clearfix">
+                        <!-- Main Menu -->
+                        <nav class="main-menu">
+                            <div class="navbar-header">
+                                <!-- Toggle Button -->      
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            
+                            <div class="navbar-collapse collapse clearfix">
+                                <ul class="navigation clearfix">
+                                    <li class="current"><a href="index.html">Home</a></li>
+                                    <li class="dropdown"><a href="#">About Us</a>
+                                        <ul>
+                                            <li><a href="about-us.html">Company Profile</a></li>
+                                            <li><a href="our-team.html">Our Team</a></li>
+                                            <li><a href="team-single.html">Team Single</a></li>
+                                        </ul>
+                                    <div class="dropdown-btn"></div></li>
+                                    <li class="dropdown"><a href="#">Services</a>
+                                        <ul>
+                                            <li><a href="services.html">Our Services</a></li>
+                                            <li><a href="service-single.html">Services Single</a></li>
+                                        </ul>
+                                    <div class="dropdown-btn"></div></li>
+                                    <li class="dropdown"><a href="#">Gallery</a>
+                                        <ul class="submenu">
+                                            <li><a href="gallery-default.html">Gallery Masonry</a></li>
+                                            <li><a href="gallery-fullwidth.html">Gallery Fullwidth</a></li>
+                                        </ul>
+                                     <div class="dropdown-btn"></div></li>
+                                 </ul>
+                            </div>
+                        </nav><!-- Main Menu End-->
+                        
+                    </div></pre><!-- /.code -->
+                
+                <br />
+                <p>you can Add your own menu item to that ul li item. and if you want to add dropdown menu just make a nesting ul li with class of <b>dropdown</b></p>
+
+                <br />
+                <br />
+
+                 <h3 class="content-title">Main Footer</h3><!-- /.content-title -->
+                 <p><b>You can create any number for footer widgte, as per your requirement,below we created simple footer.</b></p>
+                 <img src="images/footer.jpg">footer-bottom
+                  <pre class="code" data-language="html">
+<div class="big-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="row clearfix">
+                            
+                            <!--Footer Column-->
+                            <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                                <div class="footer-widget about-widget">
+                                    <div class="footer-logo"><figure><a href="index.html"><img src="images/logo-4.png" alt=""></a></figure></div>
+                                    <div class="widget-content">
+                                        <div class="text">We take pride in serving our global customers in an easy and hassle-free manner. With premium quality products we believe in class-apart service which surpasses any vendor and any standards set by the industry. We believe in setting up new benchmarks for service excellence.</div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!--Footer Column-->
+                            <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                                <div class="footer-widget about-widget">
+                                    <div class="footer-logo"><figure><a href="index.html"><img src="images/logo-4.png" alt=""></a></figure></div>
+                                    <div class="widget-content">
+                                        <div class="text">We take pride in serving our global customers in an easy and hassle-free manner. With premium quality products we believe in class-apart service which surpasses any vendor and any standards set by the industry. We believe in setting up new benchmarks for service excellence.</div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+</pre><!-- /.code -->
+                <br />
+                <br />
+
+
+                <h3 class="content-title">Footer bottom</h3><!-- /.content-title -->
+                <br />
+                   <img src="images/footer-bottom.jpg">
+                <pre class="code" data-language="html">
+
+<div class="footer-bottom">
+            <div class="auto-container">
+                <div class="clearfix">
+                    <div class="pull-left"><div class="copyright"><p>© MyIndustry 2021 </p></div></div>
+                    <div class="pull-right">
+                        <ul class="footer-nav">
+                            <div class="social-icon">
+                            <a href="#"><span class="fa fa-facebook"></span></a>
+                            <a href="#"><span class="fa fa-twitter"></span></a>
+                        </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>        </pre><!-- /.code -->
+                <p>replace "© Copyright  MyIndustry 2021 . All right reserved." with your copyright info.. as per your requirement</p>
+
+<h3 class="content-title">Zoom Effect On images (gallery)</h3><!-- /.content-title -->
+                <br />
+                <img src="images/gallery.jpg">
+  <pre class="code" data-language="html">
+  <!--Gallery Section-->
+    <section class="gallery-section">
+        <div class="auto-container">
+            <!--Sortable Masonry-->
+            <div class="sortable-masonry">
+                <!--Filter-->
+                <div class="filters text-center">
+                <div class="icon-box"><span class="fa fa-picture-o"></span></div>
+                <ul class="filter-tabs filter-btns clearfix">
+                        <li class="active filter" data-role="button" data-filter=".all">All Projects</li>          
+                        <li class="filter" data-role="button" data-filter=".Mechanical">Mechanical</li>
+                    </ul>
+                </div>
+               <div class="items-container clearfix">
+                    <!--Default Portfolio Item-->
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 default-portfolio-item masonry-item all tile-marble">
+                        <div class="inner-box">
+                           <figure class="image-box"><a href="images/gallery/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="images/gallery/1.jpg" alt=""></a></figure>
+                        </div>
+                    </div>
+                 </div>
+             </div><!--End Sortable Masonry-->
+          </div>    
+   </section>
+</pre><!-- /.code -->
+
+            </div>
+            
+        </section>
+   <!--Support-->
+        <section class="section support" id="contact">
+            <div class="sec-title">
+                <span class="icon fa fa-support"></span>
+                <h2>Contact Form Activation</h2>
+            </div>
+            
+            <br>
+            <div class="sec-content">
+                
+                <h3>You can activate your contact form using html and php file. For contact form activation you need to change the or update the credentials in contact.php file and (contact-footer.php file for footer contact.)</h3>
+                
+               <h2><b>Simple Contact Form (Method 1)</b></h2>
+                  <pre class="code" data-language="html">
+                      
+                       $your_email = "example@gmail.com";
+                  </pre>
+                  <br>
+                   <h2><b>Contact Form Activation with PHP Mailer</b></h2>
+                  <pre class="code" data-language="html">
+                      
+    $mail->isSMTP();                                            // Send using SMTP
+    $mail->Host       = 'smtp.example.com';                    // Set the SMTP server to send through
+    $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
+    $mail->Username   = 'user@example.com';                     // SMTP username
+    $mail->Password   = 'your password';                         // SMTP password
+    $mail->SMTPSecure = 'SSL';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
+    $mail->Port       = 461;                                    // TCP port to connect to
+                  </pre>
+            </div>
+            
+        </section>
+
+
+        <!--Sources and Credits-->
+        <section class="section sources-credits" id="sources-credits">
+            <div class="sec-title">
+                <span class="icon fa fa-credit-card"></span>
+                <h2>Sources and Credits</h2>
+            </div>
+            
+            <br>
+            <div class="sec-content">
+                
+                <h3>Fonts Used int the template are google fonts, you can find theme on Google Fonts API on google check and update as per your requirement.</h3>
+    <ul>
+                    <li>Google Font</li>
+                    <li>jQuery Plugin</li>
+                    <li>Faticon Font</li>
+                    <li>Fontawesome</li>
+                    <li>Bootstrap Framework</li>
+
+
+                </ul>
+               
+            </div>
+            
+        </section>
+        
+        <!--Support-->
+        <section class="section support" id="support">
+        	<div class="sec-title">
+            	<span class="icon fa fa-support"></span>
+                <h2>Template Support</h2>
+            </div>
+            
+            <br>
+            <div class="sec-content">
+            	
+                <h3>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. I'll do my best to assist you. If you have any queries, please feel free to contact us at Support Center.</h3>
+                
+               
+                
+            </div>
+            
+        </section>
+        
+        
+    </div>
+    
+    
+</div>
+<!--End pagewrapper-->
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="js/jquery.scrollTo.js"></script>
+<script src="js/scrollbar.js"></script>
+<script src="js/prism.js"></script>
+
+<script src="js/jquery.highlight.js"></script>
+
+<script src="js/script.js"></script>
+</body>
+</html>
